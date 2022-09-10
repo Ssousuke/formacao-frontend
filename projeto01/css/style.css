@@ -28,13 +28,15 @@ body {
     padding: 30px;
 }
 
-h1 {
+.centralizar-titulo {
     text-align: center;
+}
+
+h1 {
     padding-bottom: 5px;
 }
 
 h2 {
-    text-align: center;
     padding-bottom: 15px;
 }
 
