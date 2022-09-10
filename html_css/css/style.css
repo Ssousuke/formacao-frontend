@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
 
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'JetBrains Mono', monospace;
 }
 
@@ -8,8 +10,41 @@ body {
     background: #CCCCCC;
 }
 
+.banner-main {
+    width: 100%;
+}
+
+.banner-secondary {
+    width: 50%;
+}
+
+.main {
+    margin-top: 5px;
+    padding: 15px;
+}
+
+.apresentation {
+    margin-top: 5px;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
 p {
     text-align: center;
+    margin: 10px;
+}
+
+.missao {
+    font-size: 20px;
 }
 
 em strong {
@@ -18,4 +53,11 @@ em strong {
 
 span {
     color: blueviolet;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
 }
